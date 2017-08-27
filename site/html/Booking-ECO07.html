@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Karent Rider - Booking</title>
+		<meta charset="utf-8">
+		<meta name = "format-detection" content = "telephone=no" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<link rel="icon" href="../images/logo3.ico" type="image/x-icon">
+		<link rel="shortcut icon" href="../images/favicon.ico" />
+
+		<link rel="stylesheet" href="../css/style.css">
+		<link rel="stylesheet" href="../css/grid.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+
+		<script>
+			 function showAlerts() {
+			 alert("Thank for your purchase");
+			 }
+		</script>
+
+	</head>
+	<body class="page1" id="top">
+		<div class="main">
+<!--==============================header=================================-->
+			<header>
+				<div class="menu_block ">
+					<div class="container_12">
+						<div class="grid_12">
+							<nav class="horizontal-nav full-width horizontalNav-notprocessed">
+								<ul class="sf-menu">
+									<li><a href="home.html">Home</a></li>
+									<li><a href="about.html">About</a></li>
+									<li class="current"><a href="cars.html">Collections</a></li>
+									<li><a href="contacts.html">Contacts</a></li>
+								</ul>
+							</nav>
+
+						</div>
+
+					</div>
+				</div>
+				<div class="container_12">
+					<div class="grid_car2">
+							<a href="../index.html">
+								<img src="../images/logo3.png" alt="Kerent Rider">
+							</a>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</header>
+<!--==============================Content=================================-->
+      <div class="content">
+				<div class="container_12">
+					<div class="grid_Booking">
+						<div class="brand">Mini <span class="color1">C</span>ooper</div><br><br>
+						<div class="brand"><span class="color1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3,000$ / DAY</span></div>
+						<form method="post" id="personInfo" action="http://webdevfoundations.net/scripts/formdemo.asp" onsubmit = "showAlerts();">
+
+							  <h2>Personal Information</h2>
+							    <br>
+
+							    <label for="Name">Full Name&nbsp;:&nbsp;</label>
+							    <input name="Name" placeHolder="Name:" type="text" name="Name" id="Name" required><br><br>
+
+							    <label for="Name">Age&nbsp;:&nbsp;</label>
+							    <input placeHolder="Age:" type="number" name="Age" id="Age" required min="20"><br><br>
+
+							    <label for="Name">Citizen ID/Passport:&nbsp;:&nbsp;</label>
+							    <input placeHolder="Citizen ID/Passport:" type="number" name="CitizenID" id="CitizenID" required min="0"><br><br>
+
+							    <label for="Name">Telephone&nbsp;:&nbsp;</label>
+							    <input name="Phone" placeHolder="Phone:" type="number" name="Phone" id="Phone" required min="0"><br><br>
+
+							    <label for="Name">Email&nbsp;:&nbsp;</label>
+							    <input name="email" placeHolder="Email:" type="email" id="email" required><br><br>
+
+
+							    <label for="Name">Biling Address&nbsp;:&nbsp;</label>
+								  <textarea name="Address" id="Address" placeHolder="Address" required></textarea><br><br>
+
+							    <h2>Booking Information</h2><br>
+							    <label for="Name">Car Model&nbsp;:&nbsp;</label>
+							    <select name="cars">
+							      <option value="Benz">Mercedes Benz SLK</option>
+							      <option value="Benz">Mercedes Benz E-Class</option>
+							      <option value="Benz">Mercedes Benz CLA</option>
+							      <option value="Audi">Audi R8</option>
+							      <option value="Audi">Audi A8</option>
+							      <option value="Mini" selected>Mini Cooper</option>
+							      <option value="Volkswagen">Volkswagen The Beetle Convertible</option>
+							    </select><br><br>
+
+
+							    <label for="Name">Booking Date&nbsp;:&nbsp;</label>
+							    <input type="date" name="date" id="date"	placeHolder='04/13/2016' min="2016-04-27" required><br><br>
+
+									<label for="Name">Shipping Address&nbsp;:&nbsp;</label>
+									<select name="cities">
+										<option value="Benz" selected>New York</option>
+										<option value="Benz">Los Angeles</option>
+										<option value="Benz">Las Vegus</option>
+
+									</select><br><br>
+
+							    <label for="Name">Message&nbsp;:&nbsp;</label>
+							  	<textarea name="Message" id="Message" placeHolder="Message"></textarea><br><br>
+
+							    <input name="terms" type="checkbox" id="terms" required>
+							    I agree that the information provided above can be<br>
+							      processed in the manner as described in our Privacy Policy.<br>
+							    <br>
+							    <input class="btn-style" type="submit" value="Book Now">
+
+							</form>
+					</div>
+
+					<div class="booking">
+						<div class="fotorama">
+								 <img src="../images/cars/ECO_2015MINICooper_01.jpg"  />
+								 <img src="../images/cars/ECO_2015MINICooper_02.jpg"  />
+								 <img src="../images/cars/ECO_2015MINICooper_03.jpg"  />
+								 <img src="../images/cars/ECO_2015MINICooper_04.jpg"  />
+						</div>
+						<h4>MINI COOPER</h4>
+						<p>THE MINI COOPER URBAN PIONEER. Behind every great car is a great engine. Giving the MINI Cooper its strength is the all-new 1.5l 3-cylinder MINI Twin Power Turbo engine. Low in emission, but high in output it produces 100kW that give the light MINI Cooper its trademark go-kart feeling.</p>
+						</div>
+				</div>
+			</div>
+		</div>
+<!--==============================footer=================================-->
+<footer>
+	<div class="container_12">
+		<div class="grid_12">
+			<div class="socials">
+				<a href="https://twitter.com/ttoat604" class="fa fa-twitter"></a>
+				<a href="https://www.facebook.com/howjokecanloseyourfriends" class="fa fa-facebook"></a>
+				<a href="https://plus.google.com/u/0/115003365401324665306" class="fa fa-google-plus"></a>
+			</div>
+			<div class="copy">
+				<div class="st1">
+				<div class="brand">Karent <span class="color1">R</span>ider </div>
+				&copy; 2016	</div> Website designed by teateam II
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
+</footer>
+</body>
+</html>
